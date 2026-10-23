@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "assets/**/*.{css,js,png}", "use": "@vercel/static" },
+    { "src": "clean-and-validate-excel/**/*.{html,png,xlsx,pdf}", "use": "@vercel/static" },
+    { "src": "product-catalog-auditor/**/*.{html,png,xlsx,pdf}", "use": "@vercel/static" },
+    { "src": "prestashop-validator/**/*.{html,png,xlsx,pdf}", "use": "@vercel/static" },
+    { "src": "sales-dashboard/**/*.{html,png,xlsx,pdf}", "use": "@vercel/static" },
+    { "src": "seo-auditor/**/*.{html,png,xlsx,pdf}", "use": "@vercel/static" },
+    { "src": "business-lead-scraper/**/*.{html,png,xlsx,pdf}", "use": "@vercel/static" },
+    { "src": "pdf-extractor/**/*.{html,png,xlsx,pdf}", "use": "@vercel/static" }
+  ]
+}

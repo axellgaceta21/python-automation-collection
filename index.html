@@ -1,497 +1,63 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Python Automation Collection | Axell Gaceta</title>
-  <link rel="icon" type="image/png" href="images/logo.png">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Python Automation Portfolio | Axell Gaceta</title>
+<meta name="description" content="Practical Python automations for data cleaning, validation, sales reporting, web scraping, SEO auditing, and PDF extraction.">
+<link rel="icon" type="image/png" href="/assets/images/logo.png">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script defer src="/assets/js/homepage.js"></script>
+<link rel="stylesheet" href="/assets/css/footer.css">
+<script defer src="/assets/js/footer.js"></script>
 </head>
-<body>
-  <header class="site-nav">
-    <a class="brand" href="#top" aria-label="Python Automation Collection home">
-      <span class="brand-mark">PA</span>
-      <span>Python Automation</span>
-    </a>
-    <nav aria-label="Primary navigation">
-      <a href="#overview">Overview</a>
-      <a href="#systems">Automation Systems</a>
-      <a href="#workflow">Workflow</a>
-      <a href="#outputs">Outputs</a>
-      <a href="#tech">Tech Stack</a>
-      <a href="#use-cases">Use Cases</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <main id="top">
-    <section class="hero section-band reveal-surface">
-      <div class="hero-copy">
-        <p class="eyebrow">Business Automation & Python Workflow Collection</p>
-        <h1>Python Automation Collection</h1>
-        <p class="hero-subtitle">Production-ready Python automation systems designed for agencies, eCommerce brands, operations teams, analysts, technical virtual assistants, and AI automation specialists.</p>
-        <div class="hero-actions" aria-label="Portfolio actions">
-          <a class="button button-primary" href="#systems">View Projects</a>
-          <a class="button" href="#outputs">View Outputs</a>
-          <a class="button" href="https://axell-builds.lovable.app/#home">Portfolio</a>
-          <a class="button" href="https://github.com/axellgaceta21/">GitHub</a>
-          <a class="button" href="https://calendar.app.google/jeh6DUTEXHcF8smw5">Discovery Call</a>
-        </div>
-      </div>
-
-      <aside class="hero-dashboard floating-panel" aria-label="Automation collection snapshot">
-        <div class="dashboard-topbar">
-          <span></span><span></span><span></span>
-          <strong>automation-collection</strong>
-        </div>
-        <div class="dashboard-grid">
-          <div class="metric-card accent-cyan"><span>Systems</span><strong>7</strong></div>
-          <div class="metric-card accent-green"><span>Folders</span><strong>3</strong></div>
-          <div class="metric-card accent-violet"><span>Reports</span><strong>Excel</strong></div>
-        </div>
-        <div class="file-tree">
-          <div><span>datasets/</span><em>Excel, CSV, PDFs</em></div>
-          <div><span>scripts/</span><em>Python automations</em></div>
-          <div><span>outputs/</span><em>Reports and dashboards</em></div>
-        </div>
-      </aside>
-    </section>
-
-    <section id="overview" class="section-band reveal-surface">
-      <div class="section-heading split-heading">
-        <div>
-          <p class="eyebrow">Overview</p>
-          <h2>Business automation systems built for real operating work.</h2>
-        </div>
-        <p>A collection of production-style Python automations built to streamline business operations, reporting, validation, web intelligence, and document processing.</p>
-      </div>
-      <div class="capability-grid">
-        <span>Data Cleaning</span><span>Excel Automation</span><span>Catalog Validation</span><span>SEO Auditing</span><span>Business Intelligence</span><span>Lead Scraping</span><span>PDF Extraction</span><span>Reporting</span><span>Operational Automation</span>
-      </div>
-    </section>
-
-    <section id="systems" class="section-band systems-section reveal-surface">
-      <div class="section-heading center-heading">
-        <p class="eyebrow">Portfolio Systems</p>
-        <h2>Automation Systems I Created</h2>
-        <p>Compact project cards open into focused briefs with live workbook previews, generated output tabs, and premium dashboard-style presentation.</p>
-      </div>
-      <div class="systems" id="systemsGrid"></div>
-    </section>
-
-    <section id="workflow" class="section-band reveal-surface">
-      <div class="section-heading center-heading">
-        <p class="eyebrow">Workflow</p>
-        <h2>From messy files to decision-ready outputs.</h2>
-      </div>
-      <div class="workflow-map" aria-label="Automation workflow diagram">
-        <div class="workflow-node">Dataset</div>
-        <div class="workflow-node">Python Script</div>
-        <div class="workflow-node">Validation Engine</div>
-        <div class="workflow-node">Processing</div>
-        <div class="workflow-node">Cleaning</div>
-        <div class="workflow-node">Analysis</div>
-        <div class="workflow-node">Excel Report Generation</div>
-        <div class="workflow-node">Business Insights</div>
-      </div>
-    </section>
-
-    <section id="outputs" class="section-band outputs-section reveal-surface">
-      <div class="section-heading split-heading">
-        <div>
-          <p class="eyebrow">Outputs</p>
-          <h2>Large spreadsheet previews, reports, dashboards, and validation workbooks.</h2>
-        </div>
-        <p>Workbook previews render through SheetJS with sticky headers, row numbers, column letters, sheet tabs, loading states, and scrollable Excel-style tables.</p>
-      </div>
-      <div class="output-rail">
-        <div><strong>Cleaned datasets</strong><span>Validated customer, order, product, URL, and catalog records.</span></div>
-        <div><strong>Audit reports</strong><span>Invalid rows, issue summaries, checks, and remediation-ready sheets.</span></div>
-        <div><strong>Dashboards</strong><span>KPI workbooks for sales, channels, categories, and top products.</span></div>
-      </div>
-    </section>
-
-    <section id="tech" class="section-band reveal-surface">
-      <div class="section-heading center-heading">
-        <p class="eyebrow">Tech Stack</p>
-        <h2>Automation engineering toolkit</h2>
-      </div>
-      <div class="tech-cloud" id="techCloud"></div>
-    </section>
-
-    <section id="use-cases" class="section-band use-case-section reveal-surface">
-      <div class="section-heading split-heading">
-        <div>
-          <p class="eyebrow">Use Cases</p>
-          <h2>Built for teams that need reliable back-office leverage.</h2>
-        </div>
-        <p>CRM cleanup, catalog QA, marketplace operations, sales reporting, technical SEO, prospecting, data enrichment, accounting, AP/AR, and document intelligence.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer id="contact" class="footer reveal-surface">
-    <div class="footer-logo-wrap">
-      <img src="images/logo.png" alt="Axell Gaceta logo" />
-    </div>
-    <h2>Made by Axell Gaceta</h2>
-    <p>Web Developer • AI Automation Builder</p>
-    <div class="footer-links">
-      <a target="_blank" href="https://axell-builds.lovable.app/#home">🌐 Portfolio</a>
-      <a target="_blank" href="https://calendar.app.google/jeh6DUTEXHcF8smw5">📅 Book a Discovery Call</a>
-      <a target="_blank" href="https://github.com/axellgaceta21/">💻 GitHub</a>
-      <a target="_blank" href="mailto:gacetaaxell@gmail.com">✉️ Email</a>
-    </div>
-  </footer>
-
-  <script>
-    const projects = [
-      {
-        number: "01",
-        title: "Clean and Validate Excel / CSV",
-        description: "Processes messy datasets, standardizes values, removes duplicates, validates records, and generates business-ready spreadsheets.",
-        hook: "See how this automation turns messy business files into clean Excel-ready reports.",
-        script: "scripts/clean_excel_dataset.py",
-        features: ["Duplicate removal", "Email and date validation", "Customer, order, and product splits", "Summary reporting"],
-        sheets: ["Summary", "Customers_Valid", "Customers_Invalid", "Orders_Valid", "Orders_Invalid", "Products_Valid", "Products_Invalid"],
-        useCases: ["CRM Cleanup", "Lead Databases", "Marketing Lists", "Customer Records", "Accounting", "Sales Exports"],
-        inputs: ["datasets/large_messy_dataset.xlsx"],
-        outputs: ["outputs/cleaned_dataset_07.01_1.xlsx", "outputs/cleaned_dataset_07.01_2.xlsx"],
-        tech: ["Python", "Pandas", "OpenPyXL", "Data Validation"],
-        viewers: [
-          { label: "Raw Excel File", type: "excel", path: "datasets/large_messy_dataset.xlsx" },
-          { label: "Generated Excel", type: "excel", path: "outputs/cleaned_dataset_06.30_1.xlsx", displayPath: "outputs/cleaned_dataset_07.01_1.xlsx" }
-        ]
-      },
-      {
-        number: "02",
-        title: "Product Catalog Auditor",
-        description: "Audits product catalogs for missing product information, duplicate SKUs, pricing problems, stock issues, image validation, and incomplete metadata.",
-        hook: "Open the brief to inspect catalog QA checks and the generated invalid-product report.",
-        script: "scripts/product_catalog_auditor.py",
-        features: ["Missing SKU checks", "Duplicate SKU detection", "Pricing validation", "Negative stock detection", "Image and description validation", "Metadata QA"],
-        sheets: ["Summary", "Products_Valid", "Products_Invalid"],
-        useCases: ["Shopify", "WooCommerce", "Amazon", "Merchandising", "eCommerce Operations"],
-        inputs: ["datasets/product_catalog.xlsx"],
-        outputs: ["outputs/catalog_audit_07.01_1.xlsx"],
-        tech: ["Python", "Catalog QA", "eCommerce", "OpenPyXL"],
-        viewers: [
-          { label: "Raw Excel File", type: "excel", path: "datasets/products_catalog_messy.xlsx", displayPath: "datasets/product_catalog.xlsx" },
-          { label: "Output", type: "excel", path: "outputs/product_catalog_audit_06.30_1.xlsx", displayPath: "outputs/catalog_audit_07.01_1.xlsx" }
-        ]
-      },
-      {
-        number: "03",
-        title: "PrestaShop Validator",
-        description: "Validates PrestaShop exports and checks catalog integrity before importing product data into production environments.",
-        hook: "Explore the validation flow that prepares migration files before production import.",
-        script: "scripts/prestashop_validator.py",
-        features: ["Required import columns", "Product ID checks", "Name and category checks", "Pricing and stock validation"],
-        sheets: ["Summary", "PrestaShop_Valid", "PrestaShop_Invalid"],
-        useCases: ["PrestaShop", "Inventory Validation", "Migration", "Imports"],
-        inputs: ["datasets/prestashop_export.xlsx"],
-        outputs: ["outputs/prestashop_validation_07.01_1.xlsx"],
-        tech: ["Python", "PrestaShop", "Migration QA", "Validation"],
-        viewers: [
-          { label: "Raw Excel File", type: "excel", path: "datasets/prestashop_export_messy.xlsx", displayPath: "datasets/prestashop_export.xlsx" },
-          { label: "Output", type: "excel", path: "outputs/prestashop_validation_06.30_1.xlsx", displayPath: "outputs/prestashop_validation_07.01_1.xlsx" }
-        ]
-      },
-      {
-        number: "04",
-        title: "Sales Dashboard Generator",
-        description: "Transforms raw order exports into an executive sales dashboard with KPIs, summaries, channel reporting, charts, and business insights.",
-        hook: "View the dashboard workbook that turns raw sales exports into KPI-ready reporting.",
-        script: "scripts/sales_dashboard_generator.py",
-        features: ["Revenue KPIs", "Monthly sales aggregation", "Category and channel views", "Top product reporting", "Invalid order isolation"],
-        sheets: ["Dashboard", "Orders_Clean", "Orders_Invalid", "Monthly_Sales", "Category_Sales", "Channel_Sales", "Top_Products"],
-        useCases: ["Revenue Reporting", "eCommerce Analytics", "Operations Reviews", "Executive Dashboards"],
-        inputs: ["datasets/sales_orders_messy.xlsx"],
-        outputs: ["outputs/sales_dashboard_07.01_1.xlsx"],
-        tech: ["Python", "Pandas", "OpenPyXL", "Business Intelligence"],
-        viewers: [
-          { label: "Raw Excel File", type: "excel", path: "datasets/sales_orders_messy.xlsx" },
-          { label: "Dashboard", type: "excel", path: "outputs/sales_dashboard_06.30_1.xlsx", displayPath: "outputs/sales_dashboard_07.01_1.xlsx" }
-        ]
-      },
-      {
-        number: "05",
-        title: "SEO Audit Tool",
-        description: "Analyzes website URL lists and flags technical SEO issues across HTTP status, HTTPS, titles, descriptions, canonicals, robots, headings, image ALT text, and content length.",
-        hook: "Reveal the audit workflow for technical SEO checks and URL validation reporting.",
-        script: "scripts/seo_audit_tool.py",
-        features: ["HTTP status checks", "HTTPS validation", "Metadata review", "Robots and canonical checks", "ALT and H1 checks", "Indexability review"],
-        sheets: ["Summary", "SEO_Audit", "URLs_Invalid"],
-        useCases: ["SEO Agencies", "Marketing Teams", "Technical SEO", "Website Audits"],
-        inputs: ["datasets/seo_urls_sample.xlsx"],
-        outputs: ["outputs/seo_audit_07.01_1.xlsx"],
-        tech: ["Python", "Requests", "BeautifulSoup", "SEO Analysis"],
-        viewers: [
-          { label: "Raw Excel File", type: "excel", path: "datasets/seo_urls_sample.xlsx" },
-          { label: "Audit Report", type: "excel", path: "outputs/seo_audit_06.30_1.xlsx", displayPath: "outputs/seo_audit_07.01_1.xlsx" }
-        ]
-      },
-      {
-        number: "06",
-        title: "Business Website Lead Scraper",
-        description: "Crawls business websites and extracts contact information, leadership details, services, forms, social links, map links, and business intelligence fields.",
-        hook: "Open the workflow to preview the lead source list and scrape output workbook.",
-        script: "scripts/business_website_lead_scraper.py",
-        features: ["Email extraction", "Phone extraction", "Address detection", "Leadership signals", "Social and maps links", "Invalid URL reporting"],
-        sheets: ["Summary", "Business_Leads", "Invalid_URLs"],
-        useCases: ["Lead Generation", "Prospecting", "Data Enrichment", "Market Research", "Agency Workflows", "Technical VA Systems"],
-        inputs: ["datasets/business_websites.xlsx"],
-        outputs: ["outputs/business_leads_scrape_07.01_1.xlsx"],
-        tech: ["Python", "Requests", "BeautifulSoup", "Web Scraping"],
-        viewers: [
-          { label: "Raw Excel File", type: "excel", path: "datasets/business_websites.xlsx" },
-          { label: "Output", type: "excel", path: "outputs/business_leads_scrape_07.01_1.xlsx" }
-        ]
-      },
-      {
-        number: "07",
-        title: "PDF Extractor",
-        description: "Extracts structured data from invoices, purchase orders, permits, contracts, and business PDFs, then exports validation reports to Excel.",
-        hook: "Preview sample PDFs and the extraction report produced for document intelligence workflows.",
-        script: "scripts/pdf_extractor.py",
-        features: ["Invoice extraction", "Metadata extraction", "OCR preparation", "Validation", "Reporting", "Excel export"],
-        sheets: ["Summary", "Extracted_Data", "Invalid_PDFs"],
-        useCases: ["Accounting", "AP/AR", "Construction Permits", "Dental Forms", "Contract Analysis", "Document Intelligence"],
-        inputs: ["datasets/pdfs/invoice_001_dental.pdf", "datasets/pdfs/invoice_002_construction.pdf", "datasets/pdfs/purchase_order_001.pdf", "datasets/pdfs/invoice_missing_fields.pdf"],
-        outputs: ["outputs/pdf_extraction_report_07.01_1.xlsx"],
-        tech: ["Python", "PDFPlumber", "ReportLab", "Document Intelligence"],
-        viewers: [
-          { label: "Sample PDFs", type: "pdfs", path: "datasets/pdfs/", files: ["datasets/pdfs/invoice_001_dental.pdf", "datasets/pdfs/invoice_002_construction.pdf", "datasets/pdfs/purchase_order_001.pdf", "datasets/pdfs/invoice_missing_fields.pdf"] },
-          { label: "Extraction Output", type: "excel", path: "outputs/pdf_extraction_report_07.01_1.xlsx" }
-        ]
-      }
-    ];
-
-    const techStack = ["Python", "Pandas", "OpenPyXL", "BeautifulSoup", "Requests", "PDFPlumber", "ReportLab", "Excel Automation", "Web Scraping", "SEO Analysis", "Data Validation", "Business Intelligence", "PDF Processing", "Automation Engineering"];
-    const loadedExcel = new Map();
-
-    function escapeHtml(value) {
-      return String(value ?? "").replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" }[char]));
-    }
-
-    function fileName(path) {
-      return path.split("/").pop();
-    }
-
-    function renderPills(items) {
-      return items.map((item) => `<span>${escapeHtml(item)}</span>`).join("");
-    }
-
-    function renderFileList(title, items) {
-      return `<div class="file-list"><strong>${title}</strong>${items.map((item) => `<code>${escapeHtml(item)}</code>`).join("")}</div>`;
-    }
-
-    function renderSystems() {
-      const grid = document.getElementById("systemsGrid");
-      grid.innerHTML = projects.map((project, index) => `
-        <article class="system-card" id="project-${index + 1}">
-          <div class="system-summary">
-            <span class="number-badge">${project.number}</span>
-            <div class="summary-copy">
-              <h3>${escapeHtml(project.title)}</h3>
-              <p>${escapeHtml(project.description)}</p>
-              <div class="script-chip"><span>Script</span><code>${escapeHtml(project.script)}</code></div>
-              <p class="hook-message">${escapeHtml(project.hook)}</p>
-            </div>
-            <button class="accordion-toggle" type="button" aria-expanded="false" data-project-toggle="${index}">
-              <span>Explore Automation</span>
-              <b>+</b>
-            </button>
-          </div>
-
-          <div class="project-brief" data-project-brief="${index}">
-            <div class="project-brief-inner">
-              <div class="info-grid">
-                <div><strong>Features</strong><ul>${project.features.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul></div>
-                <div><strong>Generated Sheets</strong><div class="mini-pills">${renderPills(project.sheets)}</div></div>
-                <div><strong>Use Cases</strong><div class="mini-pills">${renderPills(project.useCases)}</div></div>
-                <div><strong>Tech Badges</strong><div class="mini-pills">${renderPills(project.tech)}</div></div>
-              </div>
-              <div class="file-grid">
-                ${renderFileList("Input Files", project.inputs)}
-                ${renderFileList("Output Files", project.outputs)}
-              </div>
-              <div class="viewer-shell" data-project-index="${index}">
-                <div class="viewer-tabs" role="tablist" aria-label="${escapeHtml(project.title)} file previews">
-                  ${project.viewers.map((viewer, viewerIndex) => `<button type="button" class="${viewerIndex === 0 ? "active" : ""}" data-viewer-index="${viewerIndex}" role="tab">${escapeHtml(viewer.label)}</button>`).join("")}
-                </div>
-                <div class="viewer-panel" data-panel></div>
-              </div>
-            </div>
-          </div>
-        </article>`).join("");
-
-      document.querySelectorAll("[data-project-toggle]").forEach((button) => {
-        button.addEventListener("click", () => toggleProject(button));
-      });
-
-      document.querySelectorAll(".viewer-shell").forEach((shell) => {
-        const buttons = shell.querySelectorAll("[data-viewer-index]");
-        buttons.forEach((button) => {
-          button.addEventListener("click", () => {
-            buttons.forEach((btn) => btn.classList.remove("active"));
-            button.classList.add("active");
-            renderViewer(shell, Number(button.dataset.viewerIndex));
-          });
-        });
-      });
-    }
-
-    function toggleProject(button) {
-      const index = Number(button.dataset.projectToggle);
-      const card = button.closest(".system-card");
-      const brief = card.querySelector("[data-project-brief]");
-      const isOpen = card.classList.toggle("is-open");
-      button.setAttribute("aria-expanded", String(isOpen));
-      button.querySelector("span").textContent = isOpen ? "Hide Project Brief" : "Explore Automation";
-      button.querySelector("b").textContent = isOpen ? "-" : "+";
-
-      if (isOpen) {
-        brief.style.maxHeight = brief.scrollHeight + "px";
-        const shell = card.querySelector(".viewer-shell");
-        if (!shell.dataset.loaded) {
-          renderViewer(shell, 0);
-          shell.dataset.loaded = "true";
-        }
-        setTimeout(() => {
-          brief.style.maxHeight = brief.scrollHeight + "px";
-        }, 120);
-      } else {
-        brief.style.maxHeight = brief.scrollHeight + "px";
-        requestAnimationFrame(() => {
-          brief.style.maxHeight = "0px";
-        });
-      }
-    }
-
-    function renderViewer(shell, viewerIndex) {
-      const project = projects[Number(shell.dataset.projectIndex)];
-      const viewer = project.viewers[viewerIndex];
-      const panel = shell.querySelector("[data-panel]");
-      const displayPath = viewer.displayPath || viewer.path;
-      panel.className = `viewer-panel is-${viewer.type}`;
-      panel.innerHTML = `
-        <div class="viewer-path">
-          <span>${viewer.type === "pdfs" ? "PDF" : "Excel"}</span>
-          <strong>${escapeHtml(fileName(displayPath))}</strong>
-          <code>${escapeHtml(displayPath)}</code>
-        </div>
-        <div class="viewer-content"><div class="loading-state">Loading ${escapeHtml(viewer.label)}...</div></div>`;
-
-      if (viewer.type === "excel") loadExcelViewer(panel.querySelector(".viewer-content"), viewer.path);
-      if (viewer.type === "pdfs") renderPdfViewer(panel.querySelector(".viewer-content"), viewer.files);
-    }
-
-    async function loadExcelViewer(container, path) {
-      if (!window.XLSX) {
-        container.innerHTML = `<div class="error-state">SheetJS did not load. Check the CDN connection and refresh the page.</div>`;
-        return;
-      }
-
-      if (loadedExcel.has(path)) {
-        renderWorkbook(container, loadedExcel.get(path));
-        return;
-      }
-
-      try {
-        const response = await fetch(path);
-        if (!response.ok) throw new Error(`Unable to load ${path}`);
-        const buffer = await response.arrayBuffer();
-        const workbook = XLSX.read(buffer, { type: "array" });
-        loadedExcel.set(path, workbook);
-        renderWorkbook(container, workbook);
-      } catch (error) {
-        container.innerHTML = `<div class="error-state"><strong>Workbook preview unavailable.</strong><span>${escapeHtml(error.message)}</span><small>The viewer is connected to the workbook path above.</small></div>`;
-      }
-    }
-
-    function renderWorkbook(container, workbook) {
-      const sheetTabs = workbook.SheetNames.map((name, index) => `<button type="button" class="${index === 0 ? "active" : ""}" data-sheet="${escapeHtml(name)}">${escapeHtml(name)}</button>`).join("");
-      container.innerHTML = `<div class="sheet-tabs">${sheetTabs}</div><div class="spreadsheet-wrap"></div>`;
-      const wrap = container.querySelector(".spreadsheet-wrap");
-
-      function activateSheet(sheetName) {
-        container.querySelectorAll("[data-sheet]").forEach((btn) => btn.classList.toggle("active", btn.dataset.sheet === sheetName));
-        const worksheet = workbook.Sheets[sheetName];
-        const rows = XLSX.utils.sheet_to_json(worksheet, { header: 1, defval: "" });
-        wrap.innerHTML = buildSpreadsheetTable(rows);
-        const brief = container.closest(".project-brief");
-        if (brief && brief.style.maxHeight !== "0px") brief.style.maxHeight = brief.scrollHeight + "px";
-      }
-
-      container.querySelectorAll("[data-sheet]").forEach((button) => {
-        button.addEventListener("click", () => activateSheet(button.dataset.sheet));
-      });
-      activateSheet(workbook.SheetNames[0]);
-    }
-
-    function columnName(index) {
-      let name = "";
-      let number = index + 1;
-      while (number > 0) {
-        const remainder = (number - 1) % 26;
-        name = String.fromCharCode(65 + remainder) + name;
-        number = Math.floor((number - 1) / 26);
-      }
-      return name;
-    }
-
-    function buildSpreadsheetTable(rows) {
-      const maxColumns = Math.max(1, ...rows.map((row) => row.length));
-      const normalized = rows.length ? rows : [["No rows found"]];
-      const headers = Array.from({ length: maxColumns }, (_, index) => `<th>${columnName(index)}</th>`).join("");
-      const body = normalized.map((row, rowIndex) => {
-        const cells = Array.from({ length: maxColumns }, (_, colIndex) => `<td>${escapeHtml(row[colIndex] ?? "")}</td>`).join("");
-        return `<tr><th class="row-number">${rowIndex + 1}</th>${cells}</tr>`;
-      }).join("");
-      return `<table class="spreadsheet"><thead><tr><th class="corner-cell"></th>${headers}</tr></thead><tbody>${body}</tbody></table>`;
-    }
-
-    function renderPdfViewer(container, files) {
-      container.innerHTML = `
-        <div class="pdf-grid">
-          ${files.map((path) => `
-            <article class="pdf-card">
-              <div class="pdf-card-header"><span>PDF</span><strong>${escapeHtml(fileName(path))}</strong></div>
-              <object data="${escapeHtml(path)}" type="application/pdf">
-                <iframe src="${escapeHtml(path)}" title="${escapeHtml(fileName(path))}"></iframe>
-              </object>
-            </article>`).join("")}
-        </div>`;
-    }
-
-    function renderTech() {
-      document.getElementById("techCloud").innerHTML = techStack.map((item) => `<span>${escapeHtml(item)}</span>`).join("");
-    }
-
-    function setupReveal() {
-      const surfaces = document.querySelectorAll(".reveal-surface, .system-card");
-      if (!("IntersectionObserver" in window)) {
-        surfaces.forEach((item) => item.classList.add("is-visible"));
-        return;
-      }
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("is-visible");
-            observer.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.12 });
-      surfaces.forEach((item) => observer.observe(item));
-    }
-
-    renderSystems();
-    renderTech();
-    setupReveal();
-  </script>
+<body class="portfolio-page">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-nav"><a class="brand" href="#home" aria-label="Python Automation home"><span class="brand-mark">PA</span><span>Python Automation</span></a><nav aria-label="Primary navigation"><a href="#home">Home</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a></nav></header>
+<main id="main" class="portfolio-main">
+<section class="home-hero" id="home" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow">Business workflows, thoughtfully automated</p><h1 id="hero-title">Python Automation Portfolio</h1><p class="hero-subtitle">Automating repetitive business tasks with Python.</p><p class="hero-description">Explore practical Python automation projects covering data cleaning, validation, reporting, web scraping, SEO auditing, and PDF extraction. Each project demonstrates how raw business data can be transformed into organized, usable results.</p><div class="hero-actions"><a class="button button-primary" href="#projects">Explore Projects <span aria-hidden="true">↗</span></a><a class="button" href="#contact">Get in Touch</a></div></div>
+<aside class="hero-panel" aria-label="Seven projects covering the journey from raw data to usable results"><div class="panel-top"><span class="panel-light" aria-hidden="true"></span> Python / Business Automation</div><div class="panel-summary"><strong>7</strong><span>practical projects.<br>One clear purpose.</span></div><div class="automation-path" aria-hidden="true"><div><span>01</span><strong>Raw information</strong><small>Spreadsheets, websites &amp; documents</small></div><div><span>02</span><strong>Python workflows</strong><small>Clean, validate &amp; organize</small></div><div><span>03</span><strong>Usable results</strong><small>Structured data &amp; clear reports</small></div></div><p class="panel-caption">Less repetitive work. More useful information.</p></aside>
+</section>
+<section class="home-section" id="projects" aria-labelledby="projects-title"><div class="section-heading"><div><p class="eyebrow">The collection</p><h2 id="projects-title">Automation Projects</h2></div><p>Seven practical approaches to everyday business data.</p></div><div class="project-grid">
+<article class="system-card" data-project="clean-and-validate-excel" data-project-route="/clean-and-validate-excel/" aria-labelledby="clean-and-validate-excel-title">
+<span class="number-badge" aria-label="Project 1">01</span><h3 id="clean-and-validate-excel-title">Clean and Validate Excel</h3><p>Clean messy spreadsheets, standardize records, and separate valid and invalid data.</p>
+<ul class="card-badges" aria-label="Technologies and categories"><li>Python</li><li>Pandas</li><li>Data Validation</li></ul>
+<a class="card-action" href="/clean-and-validate-excel/" aria-label="View Clean and Validate Excel project">View Project <span aria-hidden="true">&#8599;</span></a>
+</article>
+<article class="system-card" data-project="product-catalog-auditor" data-project-route="/product-catalog-auditor/" aria-labelledby="product-catalog-auditor-title">
+<span class="number-badge" aria-label="Project 2">02</span><h3 id="product-catalog-auditor-title">Product Catalog Auditor</h3><p>Identify missing product information, duplicate SKUs, and catalog inconsistencies.</p>
+<ul class="card-badges" aria-label="Technologies and categories"><li>Python</li><li>OpenPyXL</li><li>Catalog QA</li></ul>
+<a class="card-action" href="/product-catalog-auditor/" aria-label="View Product Catalog Auditor project">View Project <span aria-hidden="true">&#8599;</span></a>
+</article>
+<article class="system-card" data-project="prestashop-validator" data-project-route="/prestashop-validator/" aria-labelledby="prestashop-validator-title">
+<span class="number-badge" aria-label="Project 3">03</span><h3 id="prestashop-validator-title">PrestaShop Validator</h3><p>Validate product exports and detect issues before importing e-commerce data.</p>
+<ul class="card-badges" aria-label="Technologies and categories"><li>Python</li><li>Pandas</li><li>eCommerce</li></ul>
+<a class="card-action" href="/prestashop-validator/" aria-label="View PrestaShop Validator project">View Project <span aria-hidden="true">&#8599;</span></a>
+</article>
+<article class="system-card" data-project="sales-dashboard" data-project-route="/sales-dashboard/" aria-labelledby="sales-dashboard-title">
+<span class="number-badge" aria-label="Project 4">04</span><h3 id="sales-dashboard-title">Sales Dashboard</h3><p>Transform sales records into organized dashboards and reporting worksheets.</p>
+<ul class="card-badges" aria-label="Technologies and categories"><li>Python</li><li>Pandas</li><li>OpenPyXL</li></ul>
+<a class="card-action" href="/sales-dashboard/" aria-label="View Sales Dashboard project">View Project <span aria-hidden="true">↗</span></a>
+</article>
+<article class="system-card" data-project="seo-auditor" data-project-route="/seo-auditor/" aria-labelledby="seo-auditor-title">
+<span class="number-badge" aria-label="Project 5">05</span><h3 id="seo-auditor-title">SEO Auditor</h3><p>Analyze website URLs and generate structured SEO audit results.</p>
+<ul class="card-badges" aria-label="Technologies and categories"><li>Python</li><li>BeautifulSoup</li><li>SEO</li></ul>
+<a class="card-action" href="/seo-auditor/" aria-label="View SEO Auditor project">View Project <span aria-hidden="true">&#8599;</span></a>
+</article>
+<article class="system-card" data-project="business-lead-scraper" data-project-route="/business-lead-scraper/" aria-labelledby="business-lead-scraper-title">
+<span class="number-badge" aria-label="Project 6">06</span><h3 id="business-lead-scraper-title">Business Lead Scraper</h3><p>Collect business website information and organize results into structured reports.</p>
+<ul class="card-badges" aria-label="Technologies and categories"><li>Python</li><li>Requests</li><li>Web Scraping</li></ul>
+<a class="card-action" href="/business-lead-scraper/" aria-label="View Business Lead Scraper project">View Project <span aria-hidden="true">&#8599;</span></a>
+</article>
+<article class="system-card" data-project="pdf-extractor" data-project-route="/pdf-extractor/" aria-labelledby="pdf-extractor-title">
+<span class="number-badge" aria-label="Project 7">07</span><h3 id="pdf-extractor-title">PDF Extractor</h3><p>Extract structured information from invoices and purchase orders.</p>
+<ul class="card-badges" aria-label="Technologies and categories"><li>Python</li><li>PDFPlumber</li><li>OpenPyXL</li></ul>
+<a class="card-action" href="/pdf-extractor/" aria-label="View PDF Extractor project">View Project <span aria-hidden="true">&#8599;</span></a>
+</article>
+</div></section>
+<section class="home-section about-section" id="about" aria-labelledby="about-title"><p class="eyebrow">About the work</p><h2 id="about-title">Building Practical Business Automations</h2><p>I develop Python automation workflows that simplify repetitive tasks, improve data accuracy, and turn raw information into structured reports. My projects focus on practical business applications, including e-commerce data validation, spreadsheet processing, reporting, and document extraction.</p></section>
+</main>
+<footer id="contact" class="shared-footer" data-shared-footer aria-label="About Axell Gaceta"><p class="sf-fallback">Built &amp; documented by <a href="/">Axell Gaceta</a><br>Web Developer ? AI Automation Builder</p></footer>
 </body>
 </html>
-

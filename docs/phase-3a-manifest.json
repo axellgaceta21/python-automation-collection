@@ -1,0 +1,409 @@
+{
+  "date": "2026-10-24",
+  "siteFileCount": 63,
+  "publicStaticFileCount": 62,
+  "cliUploadFileCount": 63,
+  "archive": [
+    {
+      "original": "index.html",
+      "archived": "archive/old-website/index.html",
+      "source": "Git HEAD (already absent from working tree)",
+      "sha256": "bd69a47f79e993047cfb04618934f79b64175861ff954adb5e4fa3891d879f1d"
+    },
+    {
+      "original": "style.css",
+      "archived": "archive/old-website/style.css",
+      "source": "Git HEAD (already absent from working tree)",
+      "sha256": "8de4cc5794ebb61909b47809b274d916988586a606b0556797f336ee517750a3"
+    },
+    {
+      "original": "images/logo.png",
+      "archived": "archive/old-website/images/logo.png",
+      "source": "Git HEAD (already absent from working tree)",
+      "sha256": "2bd087939741fc29862355974d269f48297d7daa2ddeb9a7a089f9a6c0927764"
+    }
+  ],
+  "migrated": [
+    {
+      "from": "website/assets/css/excel-viewer.css",
+      "to": "assets/css/excel-viewer.css",
+      "sha256": "2ae3ad7595e7ae4d50de8d13754ee05824efd91b98fbbad020d99c5ca338829e"
+    },
+    {
+      "from": "website/assets/css/footer.css",
+      "to": "assets/css/footer.css",
+      "sha256": "7e6f569a56c1019d874b30475021dabdfbce9856e14c163a0522cbf93569572b"
+    },
+    {
+      "from": "website/assets/css/pdf-viewer.css",
+      "to": "assets/css/pdf-viewer.css",
+      "sha256": "8389b1e4f69e9c71e82a6a7f9fa5d7b2100a488589aa13a1a14cb3fca05c397e"
+    },
+    {
+      "from": "website/assets/css/project.css",
+      "to": "assets/css/project.css",
+      "sha256": "b275e0c9817a85a6b8cfe11682a274391512fa6debb0434f9357dc4c0a97beac"
+    },
+    {
+      "from": "website/assets/css/style.css",
+      "to": "assets/css/style.css",
+      "sha256": "4ec330e40eb480913760aa004abea9909a05178994228364c472102ea85f5a42"
+    },
+    {
+      "from": "website/assets/images/logo.png",
+      "to": "assets/images/logo.png",
+      "sha256": "2bd087939741fc29862355974d269f48297d7daa2ddeb9a7a089f9a6c0927764"
+    },
+    {
+      "from": "website/assets/js/.gitkeep",
+      "to": "assets/js/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "from": "website/assets/js/excel-viewer.js",
+      "to": "assets/js/excel-viewer.js",
+      "sha256": "9df62928622d1b74dcde95b0fee7de9031637866c7f2bd6b67d72e3ff68fa1f5"
+    },
+    {
+      "from": "website/assets/js/footer.js",
+      "to": "assets/js/footer.js",
+      "sha256": "6ec02ff54f75338545645deca8eb3f5e01bd2f618bfb6b58d9137794ab511aa0"
+    },
+    {
+      "from": "website/assets/js/homepage.js",
+      "to": "assets/js/homepage.js",
+      "sha256": "33689041dfe5142a456b60ed1ab0ff8445e88febc378f23d3c714396e84b8597"
+    },
+    {
+      "from": "website/assets/js/pdf-viewer.js",
+      "to": "assets/js/pdf-viewer.js",
+      "sha256": "cd2036dc6653fccb4350cb58ca23ddc3fd20654cc2e4ebb0305ec7ad6831fae3"
+    },
+    {
+      "from": "website/assets/js/project-page.js",
+      "to": "assets/js/project-page.js",
+      "sha256": "25071dbf40f3a41dd5c845f757459c419f59df77b7edbe04cb12c16b5dddf727"
+    },
+    {
+      "from": "website/assets/js/projects-config.js",
+      "to": "assets/js/projects-config.js",
+      "sha256": "78108b910a7e7ec83e3188c8c9ecf2492fabf0b5b1b01bc24217865ed3e8a3ea"
+    },
+    {
+      "from": "website/business-lead-scraper/index.html",
+      "to": "business-lead-scraper/index.html",
+      "sha256": "04869e664eb3bf3bcc59d9dd4df00dcae5f06b193e77b905f29771b96fdffe8a"
+    },
+    {
+      "from": "website/business-lead-scraper/output/business-lead-invalid-url.png",
+      "to": "business-lead-scraper/output/business-lead-invalid-url.png",
+      "sha256": "178d3ca74a58159504aa88e36bc7875270c6d1b7f00b74884965573eecf3b4c5"
+    },
+    {
+      "from": "website/business-lead-scraper/output/business-leads-demo.png",
+      "to": "business-lead-scraper/output/business-leads-demo.png",
+      "sha256": "cfe4e841e91f545e501b229e49e2de23610a88d4aa82d6e7d6d9a77e06b46d2f"
+    },
+    {
+      "from": "website/business-lead-scraper/output/business-leads-demo.xlsx",
+      "to": "business-lead-scraper/output/business-leads-demo.xlsx",
+      "sha256": "a0b8b299987d5ec31041fad05e16ba0c755a9677940c4304be418b279b205dcb"
+    },
+    {
+      "from": "website/business-lead-scraper/raw/business-lead-scraper-raw.png",
+      "to": "business-lead-scraper/raw/business-lead-scraper-raw.png",
+      "sha256": "6b68b07b66ed228aa1f11a09775d91bfcc054ac241debff1cedefe21ce1eac8a"
+    },
+    {
+      "from": "website/business-lead-scraper/raw/business_websites.xlsx",
+      "to": "business-lead-scraper/raw/business_websites.xlsx",
+      "sha256": "fab79080bc8834a6c7f4be39e45f0ee08dd41008bc7cd1be70987e0bb7722ead"
+    },
+    {
+      "from": "website/clean-and-validate-excel/index.html",
+      "to": "clean-and-validate-excel/index.html",
+      "sha256": "f5c2e5d71615ed9b02b19d86a138a105ccc04f513f3e3db82e590db085b4e2bc"
+    },
+    {
+      "from": "website/clean-and-validate-excel/output/clean-customers-invalid.png",
+      "to": "clean-and-validate-excel/output/clean-customers-invalid.png",
+      "sha256": "d492d61effdea71255e7f2d9b4125e14c29b10733c7bc1e3277038d27f880d26"
+    },
+    {
+      "from": "website/clean-and-validate-excel/output/clean-customers-valid.png",
+      "to": "clean-and-validate-excel/output/clean-customers-valid.png",
+      "sha256": "b43bc621ab62aa5bff3b3e561e4d0f015b515ef67b9b7d5dc6f4226bda4bf935"
+    },
+    {
+      "from": "website/clean-and-validate-excel/output/clean-orders-invalid.png",
+      "to": "clean-and-validate-excel/output/clean-orders-invalid.png",
+      "sha256": "7eb0689f14b696204c2d00dfdf81d637bbb9ea285b90c498b43a9e9a21294af3"
+    },
+    {
+      "from": "website/clean-and-validate-excel/output/clean-orders-valid.png",
+      "to": "clean-and-validate-excel/output/clean-orders-valid.png",
+      "sha256": "b0cf6d706449983a803f1f17f6be003f4979e6b563ecefc42c0a0732952e5b5a"
+    },
+    {
+      "from": "website/clean-and-validate-excel/output/cleaned_dataset_06.30_1.xlsx",
+      "to": "clean-and-validate-excel/output/cleaned_dataset_06.30_1.xlsx",
+      "sha256": "b5406529eab6570ea314e6a006693874f054af288078c19fe3520c3e00484b42"
+    },
+    {
+      "from": "website/clean-and-validate-excel/raw/clean-and-validate-excel-raw.png",
+      "to": "clean-and-validate-excel/raw/clean-and-validate-excel-raw.png",
+      "sha256": "4455e29fe6bfdc8d20995de2ef7488a7dcdb4b80d4afe5cdec6a1e7b39115d77"
+    },
+    {
+      "from": "website/clean-and-validate-excel/raw/large_messy_dataset.xlsx",
+      "to": "clean-and-validate-excel/raw/large_messy_dataset.xlsx",
+      "sha256": "03b96493bb3fdc732017a46ac1721cf0af98f48f442947256ea7e88bcc79bc2e"
+    },
+    {
+      "from": "website/index.html",
+      "to": "index.html",
+      "sha256": "07888294b24d475e23f8dde2745b420525bd80d79e2c28324d51d9e0f51852f3"
+    },
+    {
+      "from": "website/pdf-extractor/index.html",
+      "to": "pdf-extractor/index.html",
+      "sha256": "8ac5dbc547a8dc5f16e7a7c74b68f9192913ae7263bc50af22f4dd6e1703eef6"
+    },
+    {
+      "from": "website/pdf-extractor/output/clean-extracted-data.png",
+      "to": "pdf-extractor/output/clean-extracted-data.png",
+      "sha256": "56fe50624c530549f0442672a268f5d3d6f9c10f46ad956c2c5ef0e410f27160"
+    },
+    {
+      "from": "website/pdf-extractor/output/pdf_extraction_report_07.01_1.xlsx",
+      "to": "pdf-extractor/output/pdf_extraction_report_07.01_1.xlsx",
+      "sha256": "10e61b2382c1638c8ce6c0100a147252b2b7400d85d76b6985af4d4ba07cebfe"
+    },
+    {
+      "from": "website/pdf-extractor/raw/invoice_001_dental.pdf",
+      "to": "pdf-extractor/raw/invoice_001_dental.pdf",
+      "sha256": "b887194596fbc312346f4b262c0259acff6c279a0f96ee97156ea83fdfba810d"
+    },
+    {
+      "from": "website/pdf-extractor/raw/invoice_002_construction.pdf",
+      "to": "pdf-extractor/raw/invoice_002_construction.pdf",
+      "sha256": "0a5e88b46ddc79c6f0e5a44e0211e4c4dd035585e0b33cec544485de95c87212"
+    },
+    {
+      "from": "website/pdf-extractor/raw/invoice_missing_fields.pdf",
+      "to": "pdf-extractor/raw/invoice_missing_fields.pdf",
+      "sha256": "792bd432099ba1e199e41a594ffe5f0e36496e8398d50bd947cfb98b6643246c"
+    },
+    {
+      "from": "website/pdf-extractor/raw/purchase_order_001.pdf",
+      "to": "pdf-extractor/raw/purchase_order_001.pdf",
+      "sha256": "8e4c4b6cdce8dd7f07dee02000e2cf98aa7ae3829050df042f69705e62522230"
+    },
+    {
+      "from": "website/prestashop-validator/index.html",
+      "to": "prestashop-validator/index.html",
+      "sha256": "4c723a2e618d66785803a657df59bea77bf51baed589c611b6ac5e2e60e43689"
+    },
+    {
+      "from": "website/prestashop-validator/output/cleaned-pretashop-invalid.png",
+      "to": "prestashop-validator/output/cleaned-pretashop-invalid.png",
+      "sha256": "b495114792548336adbb1dc9313fc5df7e7009186e24a6ccdb21640e57912058"
+    },
+    {
+      "from": "website/prestashop-validator/output/cleaned-pretashop-valid.png",
+      "to": "prestashop-validator/output/cleaned-pretashop-valid.png",
+      "sha256": "ba35cedcad17fc8bb6ad61ebe9e0dc6c67ddaceb5d69460272fbf961995a60f0"
+    },
+    {
+      "from": "website/prestashop-validator/output/prestashop_validation_06.30_1.xlsx",
+      "to": "prestashop-validator/output/prestashop_validation_06.30_1.xlsx",
+      "sha256": "bef4aea8ed7e7f0295cc44093ce1ff704ea00e13e7103ad4eb7eee062b326ad1"
+    },
+    {
+      "from": "website/prestashop-validator/raw/prestashop_export_messy.xlsx",
+      "to": "prestashop-validator/raw/prestashop_export_messy.xlsx",
+      "sha256": "a45e46a8254b347d0f6c86443d864c8bcd65c868e06d73acbeffa652440de42c"
+    },
+    {
+      "from": "website/prestashop-validator/raw/pretashop-raw.png",
+      "to": "prestashop-validator/raw/pretashop-raw.png",
+      "sha256": "dc8af33ffb69dffe8f3deacba5af5bd32b8c6d0d0f1fae6c3c129fb0cc40b58a"
+    },
+    {
+      "from": "website/product-catalog-auditor/index.html",
+      "to": "product-catalog-auditor/index.html",
+      "sha256": "2c1310243e13e5a7404bb48be5dd5fe58971ef1e210bd0a19dc10fa1bf533a31"
+    },
+    {
+      "from": "website/product-catalog-auditor/output/cleaned-product-catalog-invalid.png",
+      "to": "product-catalog-auditor/output/cleaned-product-catalog-invalid.png",
+      "sha256": "070eeaee99baf22aa56bc2ce5cec4bdb54bbdff34f3c778c81c4dfc83726b95c"
+    },
+    {
+      "from": "website/product-catalog-auditor/output/cleaned-product-catalog-valid.png",
+      "to": "product-catalog-auditor/output/cleaned-product-catalog-valid.png",
+      "sha256": "90e80d156ca8239b2b5ff407f2f8442774eb027df81c5ede2758923e90298ad3"
+    },
+    {
+      "from": "website/product-catalog-auditor/output/product_catalog_audit_06.30_1.xlsx",
+      "to": "product-catalog-auditor/output/product_catalog_audit_06.30_1.xlsx",
+      "sha256": "54d9e0f1a51e969d332d3df2d4646134912a1f971718de0b9774523ca61e67ad"
+    },
+    {
+      "from": "website/product-catalog-auditor/raw/product-catalog-raw.png",
+      "to": "product-catalog-auditor/raw/product-catalog-raw.png",
+      "sha256": "ef8aa06cd893796801bd111bde659135d67fac430e89b17a00d6879f7ccdd907"
+    },
+    {
+      "from": "website/product-catalog-auditor/raw/products_catalog_messy.xlsx",
+      "to": "product-catalog-auditor/raw/products_catalog_messy.xlsx",
+      "sha256": "e66c31a8c7a1aa31f71b10ade22bcaff82bbf857358e8db06731307973348884"
+    },
+    {
+      "from": "website/sales-dashboard/index.html",
+      "to": "sales-dashboard/index.html",
+      "sha256": "434519e680e1fed61b0baf8017229b9f6f7947e27b34e3fad551846ba937bb3f"
+    },
+    {
+      "from": "website/sales-dashboard/output/cleaned-category-sales.png",
+      "to": "sales-dashboard/output/cleaned-category-sales.png",
+      "sha256": "d827f046814f91c59dbaa5715dca6f147f51c76bc72a8f4f2e9d6fe28bf000bc"
+    },
+    {
+      "from": "website/sales-dashboard/output/cleaned-channel-sales.png",
+      "to": "sales-dashboard/output/cleaned-channel-sales.png",
+      "sha256": "64ae9c604cd576b13315358438cc30e9d88599169341e7713689f9503661fae3"
+    },
+    {
+      "from": "website/sales-dashboard/output/cleaned-monthly-sales.png",
+      "to": "sales-dashboard/output/cleaned-monthly-sales.png",
+      "sha256": "88755dd72b075fd2a699f110dd0ae704edf6909542e47240f8d2dc67d30e257c"
+    },
+    {
+      "from": "website/sales-dashboard/output/cleaned-sales-dashboard.png",
+      "to": "sales-dashboard/output/cleaned-sales-dashboard.png",
+      "sha256": "19b2a09b50f88a55a9f3b2a06a194684741ccb27b84093abb5337ace406bb3be"
+    },
+    {
+      "from": "website/sales-dashboard/output/cleaned-sales-order-invalid.png",
+      "to": "sales-dashboard/output/cleaned-sales-order-invalid.png",
+      "sha256": "ebd5655ec96d12feb758b1e0916bdd09b91a740cb31259822485769af2239bb5"
+    },
+    {
+      "from": "website/sales-dashboard/output/cleaned-sales-order-valid.png",
+      "to": "sales-dashboard/output/cleaned-sales-order-valid.png",
+      "sha256": "416e2ca2c93bc7afb5ad60f5a6ccfe515dbb539b6f3479033f88fad4b56df75b"
+    },
+    {
+      "from": "website/sales-dashboard/output/cleaned-top-product-sales.png",
+      "to": "sales-dashboard/output/cleaned-top-product-sales.png",
+      "sha256": "46bde137cb7d39141ada2f4554e71616bc849ec89b4c2092aadec0ea3402dcee"
+    },
+    {
+      "from": "website/sales-dashboard/output/sales_dashboard_06.30_1.xlsx",
+      "to": "sales-dashboard/output/sales_dashboard_06.30_1.xlsx",
+      "sha256": "f4f0e3dcb96e5c394e93eede704b78182518cb02d5b496a55bb6f6b402bdaeb1"
+    },
+    {
+      "from": "website/sales-dashboard/raw/sales-orders-raw.png",
+      "to": "sales-dashboard/raw/sales-orders-raw.png",
+      "sha256": "9e51d1cc63f3911046121f2168cd78cee67aa14e6db528a61ea1924acaf113e7"
+    },
+    {
+      "from": "website/sales-dashboard/raw/sales_orders_messy.xlsx",
+      "to": "sales-dashboard/raw/sales_orders_messy.xlsx",
+      "sha256": "b31a36b5b6be18872fad182e530f415cb5900f3aee0df57cd37e60895f947e06"
+    },
+    {
+      "from": "website/seo-auditor/index.html",
+      "to": "seo-auditor/index.html",
+      "sha256": "dab99eb8ff11c60414fe978d4e671e3c8d938a7f3a3cb628dd36d6a4cfe9d65d"
+    },
+    {
+      "from": "website/seo-auditor/output/cleaned-seo-audit.png",
+      "to": "seo-auditor/output/cleaned-seo-audit.png",
+      "sha256": "fb5c5ec9d8ffa49b675fb00ac041ae8004a08a7e1119e0bd126a2519088ba1fe"
+    },
+    {
+      "from": "website/seo-auditor/output/seo_audit_06.30_1.xlsx",
+      "to": "seo-auditor/output/seo_audit_06.30_1.xlsx",
+      "sha256": "81d500a26fd8ff45e4274d3aa8ba1434e4b080db93bacc7836a7a123a3272155"
+    },
+    {
+      "from": "website/seo-auditor/raw/seo_urls_sample.xlsx",
+      "to": "seo-auditor/raw/seo_urls_sample.xlsx",
+      "sha256": "20d0faeeac895e2fe2c5d14a81f2d5c9afbdbd8b8a4ed562b8e50c6b37d996fd"
+    },
+    {
+      "from": "website/seo-auditor/raw/urls-raw.png",
+      "to": "seo-auditor/raw/urls-raw.png",
+      "sha256": "7c17ae096c50bfef1f5e90a0c4d96f02a0f4ccb1fc693c0b1585ef1e774dcfd2"
+    }
+  ],
+  "applicationChange": "Only the projects-config.js deployment-root comment changed; URL mappings and runtime data are unchanged.",
+  "preservation": "All pre-existing non-site files unchanged except .gitignore and migration notices in the three historical audit documents; all three archived Git versions hash-verified; Git index unchanged.",
+  "staticOutputFiles": [
+    "assets/css/excel-viewer.css",
+    "assets/css/footer.css",
+    "assets/css/pdf-viewer.css",
+    "assets/css/project.css",
+    "assets/css/style.css",
+    "assets/images/logo.png",
+    "assets/js/excel-viewer.js",
+    "assets/js/footer.js",
+    "assets/js/homepage.js",
+    "assets/js/pdf-viewer.js",
+    "assets/js/project-page.js",
+    "assets/js/projects-config.js",
+    "business-lead-scraper/index.html",
+    "business-lead-scraper/output/business-lead-invalid-url.png",
+    "business-lead-scraper/output/business-leads-demo.png",
+    "business-lead-scraper/output/business-leads-demo.xlsx",
+    "business-lead-scraper/raw/business-lead-scraper-raw.png",
+    "business-lead-scraper/raw/business_websites.xlsx",
+    "clean-and-validate-excel/index.html",
+    "clean-and-validate-excel/output/clean-customers-invalid.png",
+    "clean-and-validate-excel/output/clean-customers-valid.png",
+    "clean-and-validate-excel/output/clean-orders-invalid.png",
+    "clean-and-validate-excel/output/clean-orders-valid.png",
+    "clean-and-validate-excel/output/cleaned_dataset_06.30_1.xlsx",
+    "clean-and-validate-excel/raw/clean-and-validate-excel-raw.png",
+    "clean-and-validate-excel/raw/large_messy_dataset.xlsx",
+    "index.html",
+    "pdf-extractor/index.html",
+    "pdf-extractor/output/clean-extracted-data.png",
+    "pdf-extractor/output/pdf_extraction_report_07.01_1.xlsx",
+    "pdf-extractor/raw/invoice_001_dental.pdf",
+    "pdf-extractor/raw/invoice_002_construction.pdf",
+    "pdf-extractor/raw/invoice_missing_fields.pdf",
+    "pdf-extractor/raw/purchase_order_001.pdf",
+    "prestashop-validator/index.html",
+    "prestashop-validator/output/cleaned-pretashop-invalid.png",
+    "prestashop-validator/output/cleaned-pretashop-valid.png",
+    "prestashop-validator/output/prestashop_validation_06.30_1.xlsx",
+    "prestashop-validator/raw/prestashop_export_messy.xlsx",
+    "prestashop-validator/raw/pretashop-raw.png",
+    "product-catalog-auditor/index.html",
+    "product-catalog-auditor/output/cleaned-product-catalog-invalid.png",
+    "product-catalog-auditor/output/cleaned-product-catalog-valid.png",
+    "product-catalog-auditor/output/product_catalog_audit_06.30_1.xlsx",
+    "product-catalog-auditor/raw/product-catalog-raw.png",
+    "product-catalog-auditor/raw/products_catalog_messy.xlsx",
+    "sales-dashboard/index.html",
+    "sales-dashboard/output/cleaned-category-sales.png",
+    "sales-dashboard/output/cleaned-channel-sales.png",
+    "sales-dashboard/output/cleaned-monthly-sales.png",
+    "sales-dashboard/output/cleaned-sales-dashboard.png",
+    "sales-dashboard/output/cleaned-sales-order-invalid.png",
+    "sales-dashboard/output/cleaned-sales-order-valid.png",
+    "sales-dashboard/output/cleaned-top-product-sales.png",
+    "sales-dashboard/output/sales_dashboard_06.30_1.xlsx",
+    "sales-dashboard/raw/sales-orders-raw.png",
+    "sales-dashboard/raw/sales_orders_messy.xlsx",
+    "seo-auditor/index.html",
+    "seo-auditor/output/cleaned-seo-audit.png",
+    "seo-auditor/output/seo_audit_06.30_1.xlsx",
+    "seo-auditor/raw/seo_urls_sample.xlsx",
+    "seo-auditor/raw/urls-raw.png"
+  ]
+}

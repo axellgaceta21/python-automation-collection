@@ -1,0 +1,32 @@
+# Allow only the active static site and its Vercel configuration into CLI uploads.
+/*
+!index.html
+!assets/
+!clean-and-validate-excel/
+!product-catalog-auditor/
+!prestashop-validator/
+!sales-dashboard/
+!seo-auditor/
+!business-lead-scraper/
+!pdf-extractor/
+!vercel.json
+
+# Explicit non-public exclusions, independent of Git tracking.
+archive/
+private-assets/
+datasets/
+outputs/
+scripts/
+docs/
+.git/
+.vercel/
+.vscode/
+.codex/
+.agents/
+.aws/
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/__pycache__/
+**/.gitkeep

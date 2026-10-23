@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SEO Audit Automation | Axell Gaceta</title>
+  <meta name="description" content="This Python script reads a URL list, requests the pages, and records HTTP and on-page findings in a structured Excel audit.">
+  <link rel="icon" href="/assets/images/logo.png" type="image/png">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/project.css">
+  <link rel="stylesheet" href="/assets/css/excel-viewer.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+  <script defer src="/assets/js/projects-config.js"></script>
+  <script defer src="/assets/js/excel-viewer.js"></script>
+  <script defer src="/assets/js/project-page.js"></script>
+  <script defer src="/assets/js/footer.js"></script>
+</head>
+<body class="project-page" data-project="seo-auditor">
+  <a class="project-skip" href="#main">Skip to content</a>
+  <header class="project-nav"><a class="brand" href="/"><span class="brand-mark">PA</span> Back to Portfolio</a><span>Python Automation / Website Auditing</span></header>
+  <main id="main" class="project-main">
+    <section class="project-hero">
+      <p class="eyebrow">05 / Website Auditing</p>
+      <h1>SEO Audit Automation</h1>
+      <p class="project-lead">Organize common technical and on-page SEO checks in one report.</p>
+      <p>This Python script reads a URL list, requests the pages, and records HTTP and on-page findings in a structured Excel audit.</p>
+      <div class="project-actions"><a class="button button-primary" href="#generated-output">Explore Results <span aria-hidden="true">↗</span></a><a class="button" href="#raw-input">Inspect Input</a></div>
+      <div class="project-tags" aria-label="Project capabilities"><span>URL checks</span><span>On-page SEO</span><span>Audit reporting</span></div>
+    </section>
+    <section class="project-section" id="raw-input" aria-labelledby="raw-heading">
+      <p class="eyebrow">01 / The starting point</p><h2 id="raw-heading">Raw input</h2>
+      <p>The source worksheet provides URLs, page types, priorities, and notes for the audit.</p>
+      <div data-excel-viewer="raw"><p>Enable JavaScript to explore the worksheet preview.</p></div>
+    </section>
+    <section class="project-section" id="generated-output" aria-labelledby="output-heading">
+      <p class="eyebrow">02 / The result</p><h2 id="output-heading">Generated output</h2>
+      <p>The audit captures HTTP status, HTTPS usage, titles, descriptions, heading counts, canonical and robots tags, image ALT counts, and estimated word counts. These previews show a saved audit, not live results.</p>
+      <div data-excel-viewer="output"><p>Enable JavaScript to explore the worksheet previews.</p></div>
+      <p class="project-note">Screenshot cells may contain clipped text. Download the audit workbook for complete field values.</p>
+    </section>
+    <section class="project-section" aria-labelledby="workflow-heading">
+      <p class="eyebrow">03 / The workflow</p><h2 id="workflow-heading">How it works</h2>
+      <ol class="project-workflow"><li><h3>Read the URL list</h3><p>Load website URLs together with their page types, priorities, and notes.</p></li><li><h3>Request each page</h3><p>Validate URL formats, follow redirects, and capture response status.</p></li><li><h3>Inspect page elements</h3><p>Review metadata, headings, canonical and robots tags, image ALT text, and estimated word count.</p></li><li><h3>Export the findings</h3><p>Write the audit and issue details into a formatted Excel report.</p></li></ol>
+    </section>
+    <section class="project-section project-resources" aria-labelledby="resources-heading">
+      <div><p class="eyebrow">Built with</p><h2 id="resources-heading">Tools &amp; files</h2><div class="project-tags"><span>Python</span><span>Pandas</span><span>Requests</span><span>BeautifulSoup</span><span>OpenPyXL</span></div></div>
+      <div><h3>Explore the workbooks</h3><p>Download the original input and generated report.</p><div class="project-downloads" data-project-downloads></div><noscript><p>Enable JavaScript to display the approved workbook download links.</p></noscript></div>
+    </section>
+  </main>
+  <footer class="shared-footer" data-shared-footer aria-label="About Axell Gaceta"><p class="sf-fallback">Built &amp; documented by <a href="/">Axell Gaceta</a><br>Web Developer &middot; AI Automation Builder</p></footer>
+</body>
+</html>
+

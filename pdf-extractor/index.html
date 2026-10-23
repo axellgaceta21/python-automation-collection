@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PDF Data Extraction Automation | Axell Gaceta</title>
+  <meta name="description" content="This automation extracts text-based invoice information from sample PDFs and organizes the resulting fields and validation findings in Excel.">
+  <link rel="icon" href="/assets/images/logo.png" type="image/png">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/project.css">
+  <link rel="stylesheet" href="/assets/css/excel-viewer.css">
+  <link rel="stylesheet" href="/assets/css/pdf-viewer.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+  <script defer src="/assets/js/projects-config.js"></script>
+  <script defer src="/assets/js/excel-viewer.js"></script>
+  <script defer src="/assets/js/pdf-viewer.js"></script>
+  <script defer src="/assets/js/project-page.js"></script>
+  <script defer src="/assets/js/footer.js"></script>
+</head>
+<body class="project-page" data-project="pdf-extractor">
+  <a class="project-skip" href="#main">Skip to content</a>
+  <header class="project-nav"><a class="brand" href="/"><span class="brand-mark">PA</span> Back to Portfolio</a><span>Python Automation / Document Processing</span></header>
+  <main id="main" class="project-main">
+    <section class="project-hero">
+      <p class="eyebrow">07 / Document Processing</p>
+      <h1>PDF Data Extraction Automation</h1>
+      <p class="project-lead">Bring invoice and purchase-order details into a structured report.</p>
+      <p>This automation extracts text-based invoice information from sample PDFs and organizes the resulting fields and validation findings in Excel.</p>
+      <div class="project-actions"><a class="button button-primary" href="#generated-output">Explore Results <span aria-hidden="true">↗</span></a><a class="button" href="#raw-input">Inspect Input</a></div>
+      <div class="project-tags" aria-label="Project capabilities"><span>Text-based PDFs</span><span>Field extraction</span><span>Excel reporting</span></div>
+    </section>
+    <section class="project-section" id="raw-input" aria-labelledby="raw-heading">
+      <p class="eyebrow">01 / The starting point</p><h2 id="raw-heading">Raw input</h2>
+      <p>Choose one of four sample documents to inspect the original PDF using your browser’s native viewer. Only the selected document is loaded.</p>
+      <div data-pdf-viewer="raw"><p>Enable JavaScript to explore the PDF documents.</p></div>
+    </section>
+    <section class="project-section" id="generated-output" aria-labelledby="output-heading">
+      <p class="eyebrow">02 / The result</p><h2 id="output-heading">Generated output</h2>
+      <p>The output worksheet brings together document filenames, invoice numbers, vendors, dates, amounts, contact fields, and extraction issues.</p>
+      <div data-excel-viewer="output"><p>Enable JavaScript to explore the worksheet previews.</p></div>
+      <p class="project-note">These are generated testing samples. The script works with text-based PDFs; scanned image documents may require OCR before extraction.</p>
+    </section>
+    <section class="project-section" aria-labelledby="workflow-heading">
+      <p class="eyebrow">03 / The workflow</p><h2 id="workflow-heading">How it works</h2>
+      <ol class="project-workflow"><li><h3>Read sample documents</h3><p>Find the source PDFs and extract their available text.</p></li><li><h3>Identify fields</h3><p>Match invoice numbers, vendors, dates, amounts, contact details, and address candidates.</p></li><li><h3>Check completeness</h3><p>Flag missing or invalid fields and documents with extraction errors.</p></li><li><h3>Export extracted data</h3><p>Write the extracted records and validation findings to a formatted Excel report.</p></li></ol>
+    </section>
+    <section class="project-section project-resources" aria-labelledby="resources-heading">
+      <div><p class="eyebrow">Built with</p><h2 id="resources-heading">Tools &amp; files</h2><div class="project-tags"><span>Python</span><span>PDFPlumber</span><span>Pandas</span><span>OpenPyXL</span></div></div>
+      <div><h3>Explore the workbooks</h3><p>Download the generated extraction report. Open the sample PDFs using the document selector above.</p><div class="project-downloads" data-project-downloads></div><noscript><p>Enable JavaScript to display the approved workbook download links.</p></noscript></div>
+    </section>
+  </main>
+  <footer class="shared-footer" data-shared-footer aria-label="About Axell Gaceta"><p class="sf-fallback">Built &amp; documented by <a href="/">Axell Gaceta</a><br>Web Developer &middot; AI Automation Builder</p></footer>
+</body>
+</html>
+

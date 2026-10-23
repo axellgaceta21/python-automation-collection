@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Catalog Quality Auditor | Axell Gaceta</title>
+  <meta name="description" content="This automation audits product records for missing information, duplicate SKUs, pricing and stock issues, and incomplete catalog fields.">
+  <link rel="icon" href="/assets/images/logo.png" type="image/png">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/project.css">
+  <link rel="stylesheet" href="/assets/css/excel-viewer.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+  <script defer src="/assets/js/projects-config.js"></script>
+  <script defer src="/assets/js/excel-viewer.js"></script>
+  <script defer src="/assets/js/project-page.js"></script>
+  <script defer src="/assets/js/footer.js"></script>
+</head>
+<body class="project-page" data-project="product-catalog-auditor">
+  <a class="project-skip" href="#main">Skip to content</a>
+  <header class="project-nav"><a class="brand" href="/"><span class="brand-mark">PA</span> Back to Portfolio</a><span>Python Automation / Catalog Quality</span></header>
+  <main id="main" class="project-main">
+    <section class="project-hero">
+      <p class="eyebrow">02 / Catalog Quality</p>
+      <h1>Product Catalog Quality Auditor</h1>
+      <p class="project-lead">Make catalog inconsistencies easier to find and review.</p>
+      <p>This automation audits product records for missing information, duplicate SKUs, pricing and stock issues, and incomplete catalog fields.</p>
+      <div class="project-actions"><a class="button button-primary" href="#generated-output">Explore Results <span aria-hidden="true">↗</span></a><a class="button" href="#raw-input">Inspect Input</a></div>
+      <div class="project-tags" aria-label="Project capabilities"><span>Product data</span><span>Catalog QA</span><span>Issue reports</span></div>
+    </section>
+    <section class="project-section" id="raw-input" aria-labelledby="raw-heading">
+      <p class="eyebrow">01 / The starting point</p><h2 id="raw-heading">Raw input</h2>
+      <p>The sample catalog includes product names, SKUs, prices, stock, descriptions, URLs, and status fields, along with deliberately inconsistent records.</p>
+      <div data-excel-viewer="raw"><p>Enable JavaScript to explore the worksheet preview.</p></div>
+    </section>
+    <section class="project-section" id="generated-output" aria-labelledby="output-heading">
+      <p class="eyebrow">02 / The result</p><h2 id="output-heading">Generated output</h2>
+      <p>Products that pass the checks are separated from records with issues. Invalid records include the reasons they were flagged.</p>
+      <div data-excel-viewer="output"><p>Enable JavaScript to explore the worksheet previews.</p></div>
+      <p class="project-note">Some screenshot previews are excerpts. Download the workbooks to inspect every record.</p>
+    </section>
+    <section class="project-section" aria-labelledby="workflow-heading">
+      <p class="eyebrow">03 / The workflow</p><h2 id="workflow-heading">How it works</h2>
+      <ol class="project-workflow"><li><h3>Read the catalog</h3><p>Load the raw product worksheet and verify the required columns.</p></li><li><h3>Normalize product fields</h3><p>Standardize text, categories, prices, stock values, status, and dates.</p></li><li><h3>Audit catalog quality</h3><p>Check duplicate SKUs, positive prices, stock thresholds, URL formats, and description completeness.</p></li><li><h3>Export the audit</h3><p>Create formatted valid and invalid product worksheets with issue descriptions.</p></li></ol>
+    </section>
+    <section class="project-section project-resources" aria-labelledby="resources-heading">
+      <div><p class="eyebrow">Built with</p><h2 id="resources-heading">Tools &amp; files</h2><div class="project-tags"><span>Python</span><span>Pandas</span><span>OpenPyXL</span></div></div>
+      <div><h3>Explore the workbooks</h3><p>Download the original input and generated report.</p><div class="project-downloads" data-project-downloads></div><noscript><p>Enable JavaScript to display the approved workbook download links.</p></noscript></div>
+    </section>
+  </main>
+  <footer class="shared-footer" data-shared-footer aria-label="About Axell Gaceta"><p class="sf-fallback">Built &amp; documented by <a href="/">Axell Gaceta</a><br>Web Developer &middot; AI Automation Builder</p></footer>
+</body>
+</html>
+

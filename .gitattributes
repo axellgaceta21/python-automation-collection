@@ -1,0 +1,4 @@
+# Preserve original media bytes across Windows and Vercel/Linux checkouts.
+*.png binary
+*.xlsx binary
+*.pdf binary
